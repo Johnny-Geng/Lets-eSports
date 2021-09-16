@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="eSports, Videogames">
+    <meta name="description" content="Do you want to build your own team and win a glorious fight as a professional gamer? Do you want to have a glimpse of the fast-growing eSports industry? If so, then you are at the right place. Here at Let's eSports, you can catch the latest news of the gaming industry, learn about the history of eSports, find featured eSports games, get a taste of what an eSport event would look like, and many more. Let's eSports strives to become a warm harbor for all passionate gamers worldwide. Game for life!
+    --Let's eSports is a final project for USC ITP 104: Web Publishing course.--">
+
+    <title>Let's eSports - Home</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+
+    <style>
+
+        #main {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        #homepage-video {
+            margin-left: 50px;
+            float: left;
+        }
+        #homepage-video-text {
+            margin-left: 50px;
+            width: 600px;
+            float: left;
+        }
+        #homepage-video-text h1,h2,p {
+            margin: 0px;
+            padding: 0px;
+        }
+        #homepage-video-text h1 {
+            font-family: 'RocknRoll One', sans-serif;
+            text-align: center;
+            font-size: 4.5em;
+            color: black;
+        }
+        #homepage-video-text h2 {
+            display: block;
+            padding: 5px 0px;
+            text-align: center;
+            font-size: 2em;
+            background-color: #a8763e;
+            color: whitesmoke;
+        }
+        #homepage-video-text p {
+            font-family: 'RocknRoll One', sans-serif;
+            font-size: 1.3em;
+            margin-top: 30px;
+            padding: 5px;
+            border: 3px solid black;
+            border-radius: 10px;
+            text-indent: 25px;
+        }
+
+        #bio {
+            float: left;
+            margin-left: 50px;
+            width: 600px;
+            font-family: 'RocknRoll One', sans-serif;
+            margin-right: 100px;
+        }
+
+        #bio img {
+            width: 18px;
+        }
+
+        #bio h1,p {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #bio-img img {
+            float: left;
+            width: 500px;
+            height: auto;
+        }
+
+        #gold {
+            color: #a8763e;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="fixed-top">
+
+        <div id="title">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <!-- #title -->
+
+        <div id="bgm">
+            <div id="bgm-description">
+                <img src="icon/musical-note.svg" alt="musical note">
+                Now playing:<br>
+                Challengers - Riot Games
+            </div>
+
+            <audio controls autoplay loop>
+                <source src="music/Challengers.mp3">
+            </audio>
+            <div class="clearfloat"></div>
+        </div>
+        <!-- #bgm -->
+
+
+        <div id="navbar">
+
+            <div id="navbar-wrapper">
+
+                <div id="home">
+                    <a href="homepage.html">
+                        <img src="icon/home.svg" alt="home">
+                        Home
+                    </a>
+                </div>
+                <div id="industry"><a href="industry.html">Industry</a></div>
+                <div id="featured-games"><a href="games.html">Featured Games</a></div>
+                <div class="clearfloat"></div>
+
+            </div>
+            <!-- navbar-wrapper -->
+                
+        </div>
+        <!-- #navbar -->
+        
+    </div>
+    <!-- #fixed-top -->
+    
+    <div id="main">
+        <div id="homepage-video">
+            <iframe width="600" height="400" src="https://www.youtube-nocookie.com/embed/XB7Lzt_stNY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div id="homepage-video-text">
+            <h1>Featured Video</h1>
+            <h2>Stay Hungry - eSports Motivation</h2>
+            <p>"The only way to be truly satisfied is to do what you believe is great work, and the only way to do great work is to love what you do." In this featured video, you will find out what does it mean to become a true gamer, and what motivates professional eSports players to move forward. </p>
+        </div>
+
+        <div class="clearfloat"></div>
+
+        <hr>
+
+        <div id="bio">
+            <h1>Author's Note:</h1>
+            <p>
+                <br>
+                Hi there! I'm Johnny Geng, a Sophomore studying at the University of Southern California. I currently major in Computer Science (Games) at the Viterbi School of Engineering. As a passionate gamer myself, I hope you will enjoy this eSports introductory website. Game for life!
+                <br>
+                <br>
+            </p>
+
+            <h1 id="gold">Contact Me:</h1>
+            <p>
+                <br>
+                <img src="icon/email.svg" alt="email"> Email:
+                <a href="mailto:johnny_geng@foxmail.com">
+                    johnny_geng@foxmail.com
+                </a>
+            </p>
+
+            <p>
+                <img src="icon/chat.svg" alt="chat"> 
+                Wechat: Johnny_gtc
+            </p>
+
+            <p>
+                <img src="icon/globe.svg" alt="globe"> 
+                Facebook & Instagram: @johnny_gtc
+            </p>
+            
+        </div>
+        <!-- #bio -->
+
+        <div id="bio-img">
+            <img src="img/bio.jpg" alt="My Photo">
+        </div>
+        <!-- #bio-img -->
+        <div class="clearfloat"></div>
+
+    </div>
+    <!-- #main -->
+
+    <div id="footer">
+        <h4>USC ITP 104 Final Project | Johnny Geng | Spring 2021</h4>
+    </div>
+    <!-- #footer -->
+
+</body>
+</html>

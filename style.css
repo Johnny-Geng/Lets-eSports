@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+#fixed-top {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+#title {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title img {
+    width: 350px;
+    height: auto;
+    float: left;
+}
+
+#navbar {
+    background-color: #2b2828;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 1.1em;
+}
+#navbar a {
+    text-decoration: none;
+    color:whitesmoke;
+    display: block;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+    transition: all 0.5s;
+}
+#navbar-wrapper {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home,#industry,#featured-games,#about {
+    float: left;
+}
+#home {
+    background-color: #a8763e;
+}
+#home a {
+    width: 100px;
+    transition: all 1s;
+}
+#home img {
+    width: 14px;
+    height: auto;
+}
+#navbar a:hover {
+    color: #c7310f;
+}
+#home a:hover {
+    color: whitesmoke;
+    width: 200px;
+}
+
+#fixed-left {
+    position: fixed;
+    top:200px;
+    left: 5px;
+    border-style: ridge;
+    background-color: white;
+    z-index: 1;
+}
+#subbar {
+    margin: 10px;
+}
+#subbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: sans-serif;
+    display: block;
+    background-color: #009fb7;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+#subbar a:hover {
+    font-size: 1.2em; 
+}
+#back-to-top a {
+    background-color: white;
+    color: black;
+}
+#back-to-top img {
+    width: 12px;
+    height: auto;
+}
+#back-to-top a:hover {
+    font-size:unset;
+    color: #c7310f;
+}
+#bgm {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #c7310f;
+    font-family: 'RocknRoll One', sans-serif;
+}
+#bgm-description {
+    padding-top: 30px;
+    text-align: end;
+}
+#bgm img{
+    width: 15px;
+    height: auto;
+}
+audio {
+    padding-left: 500px;
+    width: 250px;
+    height: 30px;
+}
+
+#main {
+    padding-top: 200px;
+    margin-left: 220px;
+}
+
+#footer {
+    background-color: #2b2828;
+    display: block;
+    height: 30px;
+    text-align: center;
+    font-size: 1.3em;
+    color: whitesmoke;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
